@@ -4,7 +4,7 @@ class EmailAddressParser
    
   
   def initialize(emails)
-   @emails << emails.split(/[\s,]+/).flatten
+   @emails = emails.split(/[\s,]+/).flatten
     
   end
 
